@@ -1,1 +1,3 @@
 [![Build Status](https://travis-ci.org/jakubboucek/posobota-docker-workshop.svg?branch=master)](https://travis-ci.org/jakubboucek/posobota-docker-workshop)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b60a2b7e5f01195a80b1/maintainability)](https://codeclimate.com/github/jakubboucek/posobota-docker-workshop/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b60a2b7e5f01195a80b1/test_coverage)](https://codeclimate.com/github/jakubboucek/posobota-docker-workshop/test_coverage)
