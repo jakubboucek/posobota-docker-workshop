@@ -1,4 +1,6 @@
 {
     "name": "jakubboucek/posobota-docker-workshop",
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^6.4"
+    }
 }
