@@ -6,8 +6,10 @@ before_script:
   - docker-compose build
   - docker-compose run --rm dev composer install
   - docker-compose run --rm dev composer require squizlabs/php_codesniffer
+  - docker-compose run --rm dev composer require phpstan/phpstan
 script:
   - docker-compose run --rm dev ./vendor/bin/phpunit tests/
   - docker-compose run --rm dev vendor/bin/phpcs --standard=psr2 -n --ignore=vendor --extensions=php .
+  - docker-compose run --rm dev vendor/bin/phpstan analyse --level=7 ./src ./tests
 after_success:
   - docker images
